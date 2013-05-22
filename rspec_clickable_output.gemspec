@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Clickable RSpec output.}
   gem.homepage      = "https://github.com/tadast/rspec_clickable_output"
 
-  gem.add_dependency 'rspec-core', '~> 2.11.1'
+  gem.add_dependency 'rspec-core', '~> 2.13.1'
   gem.add_development_dependency 'rspec'
 
   gem.files         = `git ls-files`.split($\)
